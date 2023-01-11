@@ -8,20 +8,16 @@ body {
 /* normalize End */
 
 /* General Start */
-section {
-  background-color: white;
-  border: solid black 1px;
-}
 
 .hero {
-  background-color: #1c1d25;
+  background-color: #16141b;
   height: 100vh;
   color: white;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 p {
   margin: 0;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 300;
 }
 a {
@@ -44,8 +40,8 @@ a {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  font-size: 30px;
-  width: 500px;
+  font-size: 1.875rem;
+  width: 31.25rem;
   /* text-align: end;  ego to evala auto extra*/
 }
 .hero nav .show {
@@ -64,53 +60,56 @@ a {
   align-items: center;
 }
 .hero .hero-text {
-  margin-left: 80px;
-  margin-bottom: 200px;
+  margin-left: 5rem;
+  margin-bottom: 12.5rem;
 }
 .hero .hero-text h1 {
-  font-size: 90px;
+  font-size: 5.625rem;
   margin: 0;
 }
 
 .hero .hero-text .button {
-  width: 200px;
-  height: 55px;
+  width: 12.5rem;
+  height: 3.438rem;
   border-radius: 30px;
-  background-color: purple;
+  background-color: rgb(67, 0, 143);
   text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
-  padding-top: 5px;
+  font-size: 1.875rem;
+  margin-top: 1.25rem;
+  padding-top: 0.3rem;
 }
 .hero .hero-text .button:hover {
-  background-color: rgb(139, 0, 139);
+  background-color: rgb(76, 0, 139);
 }
-.hero .hero-text .button:active {
-  background-color: white;
+/* .hero .hero-text .button:active {
+  background-color: rgb(58, 0, 192);
   color: purple;
-}
+} */
 .hero .hero-area .socials {
-  margin: 20px;
-  margin-bottom: 350px;
+  margin: 1.25rem;
+  margin-bottom: 21rem;
 }
 
 /* .hero End */
 
 /* .Sub-section About me Start */
 .sub-section {
-  color: red;
+  color: rgb(236, 228, 255);
   display: flex;
   justify-content: space-around;
-  padding: 80px;
+  padding: 5rem;
+
+  background: linear-gradient(#16141b, #25222e);
 }
 .sub-section h2 {
-  font-size: 50px;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
 }
 .headshot {
   width: 300px;
   height: 300px;
-  border-radius: 150px;
-  margin-left: 80px;
+  border-radius: 200px;
+  margin-left: 5rem;
 }
 .headshot-container {
   display: flex;
@@ -122,7 +121,7 @@ a {
   width: 200px;
   height: 500px;
   box-shadow: 5px 5px 20px lightgray;
-  margin: 10px;
+  margin: 0.625rem;
 }
 .project-container {
   display: flex;
@@ -132,15 +131,16 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+  padding: 5rem;
+  background-color: rgb(239, 234, 255);
 }
 .subtext {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 300;
 }
 .project-image {
   width: 200px;
-  margin-top: 25px;
+  margin-top: 1.5rem;
   border-radius: 100px;
 }
 hr {
@@ -153,11 +153,11 @@ hr {
 /* Projects End */
 /* Footer Start */
 footer {
-  height: 150px;
+  height: 9rem;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 80px;
+  padding: 5rem;
 }
 
 /* media responsive */
@@ -171,8 +171,8 @@ footer {
     border: 0;
     background-color: transparent;
     color: white;
-    font-size: 30px;
-    margin: 40px;
+    font-size: 1.875rem;
+    margin: 2.5rem;
     align-self: flex-end;
   }
   .hero nav ul {
