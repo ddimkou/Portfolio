@@ -116,6 +116,90 @@ a {
   align-items: center;
 }
 /* .Sub-section About me End */
+
+/* .Sub-section Skills Start */
+.sub-section-skills {
+  color: rgb(236, 228, 255);
+  padding: 5rem;
+  background: linear-gradient(#25222e, #2e2938);
+  list-style-type: none;
+  color: #fff;
+}
+.sub-section-skills h2 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.sub-section-skills .bar {
+  background: #16141b;
+  display: block;
+  /* height: 20px; */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sub-section-skills .bar span {
+  height: 1rem;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(61, 0, 175, 1) 0%,
+    rgba(101, 14, 182, 1) 100%
+  );
+}
+.sub-section-skills .bar .html {
+  width: 90%;
+  animation: html 3s;
+}
+.sub-section-skills .bar .css {
+  width: 80%;
+  animation: css 3s;
+}
+.sub-section-skills .bar .javascript {
+  width: 65%;
+  animation: javascript 3s;
+}
+.sub-section-skills .bar .react {
+  width: 20%;
+  animation: react 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+/* .Sub-section Skills END */
+
 /* Projects Start */
 .project-card {
   width: 200px;
