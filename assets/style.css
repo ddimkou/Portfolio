@@ -129,7 +129,10 @@ a {
   font-size: 3rem;
   color: rgb(255, 255, 255);
 }
-
+.sub-section-skills .bar-container {
+  width: 40%;
+  margin: auto;
+}
 .sub-section-skills .bar {
   background: #16141b;
   display: block;
@@ -301,6 +304,9 @@ footer {
   }
   .sub-section .headshot-container {
     margin-top: 5rem;
+  }
+  .sub-section-skills .bar-container {
+    width: 100%;
   }
   footer {
     height: 15rem;
