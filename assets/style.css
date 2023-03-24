@@ -205,14 +205,21 @@ a {
 
 /* Projects Start */
 .project-card {
-  width: 200px;
-  height: 500px;
+  width: 600px;
+  min-height: 500px;
   box-shadow: 5px 5px 20px lightgray;
   margin: 0.625rem;
 }
 .project-container {
   display: flex;
   justify-content: space-around;
+}
+.project-container a {
+  text-decoration: none;
+  color: black;
+}
+.project-container a:hover {
+  color: rgb(183, 0, 255);
 }
 .sub-section-projects {
   display: flex;
@@ -221,10 +228,11 @@ a {
   padding: 5rem;
   background-color: rgb(239, 234, 255);
 }
-.subtext {
-  font-size: 1rem;
-  font-weight: 300;
+.project-card p.sub-text {
+  font-size: 1em;
+  font-weight: 400;
 }
+
 .project-image {
   width: 200px;
   margin-top: 1.5rem;
@@ -249,10 +257,6 @@ footer {
 
 /* media responsive */
 @media only screen and (max-width: 1000px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
   .hamburger {
     display: block;
     border: 0;
@@ -307,6 +311,15 @@ footer {
   }
   .sub-section-skills .bar-container {
     width: 100%;
+  }
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-card p.sub-text {
+    font-size: 1.3em;
+    font-weight: 600;
   }
   footer {
     height: 15rem;
