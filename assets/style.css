@@ -35,15 +35,13 @@ a {
   display: flex;
   justify-content: space-between;
 }
-/* to justify content den doulevei??
- */
+
 .hero nav ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
   font-size: 1.875rem;
   width: 31.25rem;
-  /* text-align: end;  ego to evala auto extra*/
 }
 .hero nav .show {
   /* toggle menu */
@@ -51,7 +49,6 @@ a {
 }
 
 .hero nav ul li {
-  /* removed underline on link */
   text-decoration: none;
 }
 .hero nav ul li a {
