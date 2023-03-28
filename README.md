@@ -1,5 +1,1 @@
-# Portfolio
- core
- 
- todo:
- skills, images, p
+This is my personal portfolio
