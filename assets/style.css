@@ -105,13 +105,13 @@ a {
 .sub-section {
   color: rgb(236, 228, 255);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5rem;
 
   background: linear-gradient(#16141b, #25222e);
 }
 .sub-section h2 {
-  font-size: 3rem;
+  font-size: 2em;
   color: rgb(255, 255, 255);
 }
 .headshot {
@@ -155,7 +155,7 @@ a {
   color: #fff;
 }
 .sub-section-skills h2 {
-  font-size: 3rem;
+  font-size: 2em;
   color: rgb(255, 255, 255);
 }
 .sub-section-skills .bar-container {
@@ -233,6 +233,9 @@ a {
 /* .Sub-section Skills END */
 
 /* Projects Start */
+.sub-section-projects h2 {
+  font-size: 2em;
+}
 .project-card {
   width: 600px;
   min-height: 600px;
