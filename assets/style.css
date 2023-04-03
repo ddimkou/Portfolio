@@ -237,7 +237,7 @@ a {
   font-size: 2em;
 }
 .project-card {
-  width: 600px;
+  width: 500px;
   min-height: 600px;
   box-shadow: 5px 5px 20px lightgray;
   margin: 0.625rem;
