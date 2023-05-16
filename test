@@ -1,0 +1,212 @@
+<!-- THE ODIN PROJECT START -->
+<section class="sub-section-projects" id="odin-projects">
+    <h2>The Odin Projects</h2>
+    <div class="project-container">
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-jsx jsx-icon"></i>
+        <a href="https://ddimkou-shop.netlify.app/">
+          <img
+            class="project-image"
+            src="assets/images/online-shop.png"
+            alt="memory game"
+        />
+        <h3>Online-shop  <i class="bi bi-link-45deg"></i></i></h3>
+        </a>
+        <p class="main-text">Online shop with functionality of adding to cart. Also it uses Local Storage.</p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou-shop.netlify.app/"
+              >Live</a
+            >
+          </p>
+          <hr />
+          <p class="lower-text">
+            <a
+              class="project-link"
+              href="https://github.com/ddimkou/odin-react-online-shop"
+              >GitHub</a
+            >
+          </p>
+       </div>
+      </div>
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-jsx jsx-icon"></i>
+        <a href="https://ddimkou.github.io/odin-react-memory-game/">
+          <img
+            class="project-image"
+            src="assets/images/memory-game.png"
+            alt="memory game"
+        />
+        <h3>Memory Game by React  <i class="bi bi-link-45deg"></i></i></h3>
+        </a>
+        <p class="main-text">Simple memory game. Pick pokemons, if you pick a pokemon that has been already picked, you loose!</p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou.github.io/odin-react-memory-game"
+              >Live</a
+            >
+          </p>
+          <hr />
+          <p class="lower-text">
+            <a
+              class="project-link"
+              href="https://github.com/ddimkou/odin-react-memory-game"
+              >GitHub</a
+            >
+          </p>
+       </div>
+      </div>
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-jsx jsx-icon"></i>
+        <a href="https://ddimkou.github.io/odin-react-weather/">
+          <img
+            class="project-image"
+            src="assets/images/weather-app.png"
+            alt="weather-app"
+        />
+        <h3>Weather App by React  <i class="bi bi-link-45deg"></i></i></h3>
+        </a>
+        <p class="main-text">Display the weather in Celcious or Fahnerheit and other additional information</p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou.github.io/odin-react-weather/"
+              >Live</a
+            >
+          </p>
+          <hr />
+          <p class="lower-text">
+            <a
+              class="project-link"
+              href="https://github.com/ddimkou/odin-react-weather"
+              >GitHub</a
+            >
+          </p>
+       </div>
+      </div>
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-jsx jsx-icon"></i>
+        <a href="https://ddimkou.github.io/odin-react-cv-app/">
+          <img
+            class="project-image"
+            src="assets/images/cv-app.png"
+            alt="weather-app"
+        />
+        <h3>Build your CV by React  <i class="bi bi-link-45deg"></i></i></h3>
+        </a>
+        <p class="main-text">CV App. Learning about hooks(useState, useEffect) and practising</p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou.github.io/odin-react-cv-app/"
+              >Live</a
+            >
+          </p>
+          <hr />
+          <p class="lower-text">
+            <a
+              class="project-link"
+              href="https://github.com/ddimkou/odin-react-cv-app"
+              >GitHub</a
+            >
+          </p>
+       </div>
+      </div>
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-js"></i>
+        <a href="https://ddimkou.github.io/odin-todo/">
+          <img
+            class="project-image"
+            src="assets/images/todo.png"
+            alt="todo-app"
+        />
+        <h3>Todo List with Local Storage  <i class="bi bi-link-45deg"></i></i></h3>
+        </a>
+        <p class="main-text">A todo app, adding editing and even delete your todos. Using the Local Storage. Made with HTML, CSS, JavaScript</p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou.github.io/odin-todo/"
+              >Live</a
+            >
+          </p>
+          <hr />
+          <p class="lower-text">
+            <a
+              class="project-link"
+              href="https://github.com/ddimkou/odin-todo"
+              >GitHub</a
+            >
+          </p>
+       </div>
+      </div>
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-js"></i>
+        <a href="https://ddimkou.github.io/odin-tic-tac-toe/">
+          <img
+            class="project-image"
+            src="assets/images/tictactoe.png"
+            alt="tic-tac-toe"
+        />
+        <h3>Tic Tac Toe <i class="bi bi-link-45deg"></i></h3></a>
+        <p class="main-text">
+          Classic game of tic-tac-toe. Checking conditions of winner/tie and reset. Made with HTML CSS Javascript
+        </p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou.github.io/odin-tic-tac-toe/"
+              >Live</a
+            >
+          </p>
+        <hr />
+        <p class="subtext">
+          <a class="project-link" href="https://github.com/ddimkou/odin-tic-tac-toe"
+            >GitHub</a
+          >
+        </p></div>
+      </div>
+      <!--next project-->
+      <div class="project-card">
+        <i class="bi bi-filetype-js"></i>
+        <a href="https://ddimkou.github.io/odin-calculator/">
+          <img
+            class="project-image"
+            src="assets/images/calculator.png"
+            alt="calculator-app"
+        />
+        <h3>Calculator <i class="bi bi-link-45deg"></i></h3></a>
+        <p class="main-text">
+          Calculator with the basic math operators. Made with HTML CSS Javascript
+        </p>
+        <div class="live-code">
+          <p class="upper-text">
+            <a
+              class="project-link"
+              href="https://ddimkou.github.io/odin-calculator"
+              >Live</a
+            >
+          </p>
+        <hr />
+        <p class="subtext">
+          <a class="project-link" href="https://github.com/ddimkou/odin-calculator"
+            >GitHub</a
+          >
+        </p>
+      </div></div>
+  </section>
+  <!-- THE ODIN PROJECT END -->
